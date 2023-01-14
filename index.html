@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather-DashBoard</title>
+    <!-- Bootstrap Style Stuff-->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <script type="text/JavaScript" src="https://MomentJS.com/downloads/moment.js"></script>
+    <link rel="stylesheet" href="Assets/style.css">
+    <!-- dayjs stuff -->
+    <script type="text/JavaScript" src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
 </head>
 <body>
     <header>
@@ -19,9 +22,9 @@
             <div class="col-sm-3 sidenav">
                 <div class="row">
                     <h4>Enter a city</h4>
-                    <input type="text" class="form-control" id="inputVal">
+                    <input type="text" class="form-control" id="cityInput">
 
-                    <button class="btn-default" id="searchbtn" type="button">
+                    <button class="btn-default" id="searchBtn" type="button">
                         <span class="glyphicon glyphicon-search">Search</span>
                     </button>
                 </div>
@@ -62,6 +65,6 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="Assets/script.js"></script>
+    <script src="Assets/scrpt.js"></script>
 </body>
 </html>
